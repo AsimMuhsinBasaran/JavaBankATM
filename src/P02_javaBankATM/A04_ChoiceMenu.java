@@ -20,6 +20,7 @@ public class A04_ChoiceMenu {
                     "\n4-Check your account balance\n5-Exit");
             int cardChoice = scan1.nextInt();
 
+
             if (cardChoice == 1) {
                 System.out.println("Your current balance = " + accountBalace + " $");
                 System.out.println("Please enter the amount which you want to transfer");
